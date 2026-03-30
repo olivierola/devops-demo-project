@@ -13,7 +13,7 @@ replicaCount: 2
 image:
   repository: kabak237/demo-java-app
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "V1.0"
 
 appName: demo-java-app
 
