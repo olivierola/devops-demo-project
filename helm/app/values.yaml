@@ -4,12 +4,16 @@
 
 replicaCount: 2
 
+# image:
+#   githubID: kabak237
+#   repository: demo-java-app
+#   pullPolicy: IfNotPresent
+#   # Overrides the image tag whose default is the chart appVersion.
+#   tag: "V1.0"
 image:
-  githubID: kabak237
-  repository: demo-java-app
+  repository: kabak237/demo-java-app
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "V1.0"
+  tag: "latest"
 
 appName: demo-java-app
 
